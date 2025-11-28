@@ -1,0 +1,13 @@
+{
+  "index": 10,
+  "config_name": "validation_tax_syn_3-5d_none_0-50.xes",
+  "dataset_path": "data/raw/syn/syn_3-5d_none_0-50.xes",
+  "artifact_path": "artifacts/experiment_20251110T132130Z.json",
+  "metrics": {
+    "mae": 27676.784826637147,
+    "mse": 1660389489.034286,
+    "rmse": 40747.87711076844,
+    "mape": 6594.059560984316
+  },
+  "duration_sec": 82.1530828459654
+}

@@ -1,0 +1,13 @@
+{
+  "index": 2,
+  "config_name": "validation_verenich_helpdesk.xes",
+  "dataset_path": "data/raw/helpdesk.xes",
+  "artifact_path": "artifacts/experiment_20251111T195956Z.json",
+  "metrics": {
+    "mae": 433744.2849965833,
+    "mse": 360349797299.5725,
+    "rmse": 600291.426974909,
+    "mape": 3915.387067606912
+  },
+  "duration_sec": 73.74067335599102
+}

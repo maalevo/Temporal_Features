@@ -1,0 +1,127 @@
+﻿type,granularity,encoding,valid,non-valid reason
+time current event,second,numerical,1,
+time current event,second,cyclical,0,cyclical not valid
+time current event,second,categorical,0,dimensionality too high
+time current event,minute,numerical,1,
+time current event,minute,cyclical,0,cyclical not valid
+time current event,minute,categorical,0,dimensionality too high
+time current event,hour,numerical,1,
+time current event,hour,cyclical,0,cyclical not valid
+time current event,hour,categorical,0,dimensionality too high
+time current event,day,numerical,1,
+time current event,day,cyclical,0,cyclical not valid
+time current event,day,categorical,0,dimensionality too high
+time current event,week,numerical,1,
+time current event,week,cyclical,0,cyclical not valid
+time current event,week,categorical,0,dimensionality too high
+time current event,month,numerical,1,
+time current event,month,cyclical,0,cyclical not valid
+time current event,month,categorical,0,dimensionality too high
+time in day,second,numerical,1,
+time in day,second,cyclical,1,
+time in day,second,categorical,0,dimensionality too high
+time in day,minute,numerical,1,
+time in day,minute,cyclical,1,
+time in day,minute,categorical,0,dimensionality too high
+time in day,hour,numerical,1,
+time in day,hour,cyclical,1,
+time in day,hour,categorical,1,
+time in day,day,numerical,0,granularity too low
+time in day,day,cyclical,0,granularity too low
+time in day,day,categorical,0,granularity too low
+time in day,week,numerical,0,granularity too low
+time in day,week,cyclical,0,granularity too low
+time in day,week,categorical,0,granularity too low
+time in day,month,numerical,0,granularity too low
+time in day,month,cyclical,0,granularity too low
+time in day,month,categorical,0,granularity too low
+time in week,second,numerical,1,
+time in week,second,cyclical,1,
+time in week,second,categorical,0,dimensionality too high
+time in week,minute,numerical,1,
+time in week,minute,cyclical,1,
+time in week,minute,categorical,0,dimensionality too high
+time in week,hour,numerical,1,
+time in week,hour,cyclical,1,
+time in week,hour,categorical,0,dimensionality too high
+time in week,day,numerical,1,
+time in week,day,cyclical,1,
+time in week,day,categorical,1,
+time in week,week,numerical,0,granularity too low
+time in week,week,cyclical,0,granularity too low
+time in week,week,categorical,0,granularity too low
+time in week,month,numerical,0,granularity too low
+time in week,month,cyclical,0,granularity too low
+time in week,month,categorical,0,granularity too low
+time in month,second,numerical,1,
+time in month,second,cyclical,1,
+time in month,second,categorical,0,dimensionality too high
+time in month,minute,numerical,1,
+time in month,minute,cyclical,1,
+time in month,minute,categorical,0,dimensionality too high
+time in month,hour,numerical,1,
+time in month,hour,cyclical,1,
+time in month,hour,categorical,0,dimensionality too high
+time in month,day,numerical,1,
+time in month,day,cyclical,1,
+time in month,day,categorical,1,
+time in month,week,numerical,1,
+time in month,week,cyclical,1,
+time in month,week,categorical,1,
+time in month,month,numerical,0,granularity too low
+time in month,month,cyclical,0,granularity too low
+time in month,month,categorical,0,granularity too low
+time in year,second,numerical,1,
+time in year,second,cyclical,1,
+time in year,second,categorical,0,dimensionality too high
+time in year,minute,numerical,1,
+time in year,minute,cyclical,1,
+time in year,minute,categorical,0,dimensionality too high
+time in year,hour,numerical,1,
+time in year,hour,cyclical,1,
+time in year,hour,categorical,0,dimensionality too high
+time in year,day,numerical,1,
+time in year,day,cyclical,1,
+time in year,day,categorical,0,dimensionality too high
+time in year,week,numerical,1,
+time in year,week,cyclical,1,
+time in year,week,categorical,0,dimensionality too high
+time in year,month,numerical,1,
+time in year,month,cyclical,1,
+time in year,month,categorical,1,
+time since case start,second,numerical,1,
+time since case start,second,cyclical,0,cyclical not valid
+time since case start,second,categorical,0,dimensionality too high
+time since case start,minute,numerical,1,
+time since case start,minute,cyclical,0,cyclical not valid
+time since case start,minute,categorical,0,dimensionality too high
+time since case start,hour,numerical,1,
+time since case start,hour,cyclical,0,cyclical not valid
+time since case start,hour,categorical,0,dimensionality too high
+time since case start,day,numerical,1,
+time since case start,day,cyclical,0,cyclical not valid
+time since case start,day,categorical,0,dimensionality too high
+time since case start,week,numerical,1,
+time since case start,week,cyclical,0,cyclical not valid
+time since case start,week,categorical,0,dimensionality too high
+time since case start,month,numerical,1,
+time since case start,month,cyclical,0,cyclical not valid
+time since case start,month,categorical,0,dimensionality too high
+time since last event,second,numerical,1,
+time since last event,second,cyclical,0,cyclical not valid
+time since last event,second,categorical,0,dimensionality too high
+time since last event,minute,numerical,1,
+time since last event,minute,cyclical,0,cyclical not valid
+time since last event,minute,categorical,0,dimensionality too high
+time since last event,hour,numerical,1,
+time since last event,hour,cyclical,0,cyclical not valid
+time since last event,hour,categorical,0,dimensionality too high
+time since last event,day,numerical,1,
+time since last event,day,cyclical,0,cyclical not valid
+time since last event,day,categorical,0,dimensionality too high
+time since last event,week,numerical,1,
+time since last event,week,cyclical,0,cyclical not valid
+time since last event,week,categorical,0,dimensionality too high
+time since last event,month,numerical,1,
+time since last event,month,cyclical,0,cyclical not valid
+time since last event,month,categorical,0,dimensionality too high

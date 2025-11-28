@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_verenich_sepsis.xes",
+  "dataset_path": "data/raw/sepsis.xes",
+  "artifact_path": "artifacts/experiment_20251125T151920Z.json",
+  "metrics": {
+    "mae": 5533730.5176043,
+    "mse": 106851723109575.69,
+    "rmse": 10336910.714017786,
+    "mape": 32908.64803049438
+  },
+  "duration_sec": 44.51311890804209
+}

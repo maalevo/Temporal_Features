@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_oyamada_BPI_2013_closed_problems.xes",
+  "dataset_path": "data/raw/BPI_2013_closed_problems.xes",
+  "artifact_path": "artifacts/experiment_20251118T111811Z.json",
+  "metrics": {
+    "mae": 5256375.610375497,
+    "mse": 111321419128937.81,
+    "rmse": 10550896.603082499,
+    "mape": 4710650.110979865
+  },
+  "duration_sec": 20.237891563912854
+}

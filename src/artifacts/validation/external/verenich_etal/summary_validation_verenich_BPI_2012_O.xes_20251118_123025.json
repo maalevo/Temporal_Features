@@ -1,0 +1,13 @@
+{
+  "index": 6,
+  "config_name": "validation_verenich_BPI_2012_O.xes",
+  "dataset_path": "data/raw/BPI_2012_O.xes",
+  "artifact_path": "artifacts/experiment_20251118T113025Z.json",
+  "metrics": {
+    "mae": 625652.3216722482,
+    "mse": 842684028436.7168,
+    "rmse": 917978.2287378698,
+    "mape": 3348068.0448354855
+  },
+  "duration_sec": 178.2781727318652
+}

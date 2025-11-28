@@ -1,0 +1,13 @@
+{
+  "index": 4,
+  "config_name": "validation_oyamada_helpdesk.xes",
+  "dataset_path": "data/raw/helpdesk.xes",
+  "artifact_path": "artifacts/experiment_20251118T113907Z.json",
+  "metrics": {
+    "mae": 435311.6493524207,
+    "mse": 382347867972.1443,
+    "rmse": 618342.8401559643,
+    "mape": 3960.435413962571
+  },
+  "duration_sec": 101.04823435400613
+}

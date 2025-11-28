@@ -1,0 +1,13 @@
+{
+  "index": 14,
+  "config_name": "validation_guided_syn_12h_yearly0-2_0-50_7y.xes",
+  "dataset_path": "data/raw/syn/syn_12h_yearly0-2_0-50_7y.xes",
+  "artifact_path": "artifacts/experiment_20251111T231250Z.json",
+  "metrics": {
+    "mae": 5622.203423989931,
+    "mse": 82496653.40549408,
+    "rmse": 9082.766836459807,
+    "mape": 601.467970865568
+  },
+  "duration_sec": 309.22084330406506
+}

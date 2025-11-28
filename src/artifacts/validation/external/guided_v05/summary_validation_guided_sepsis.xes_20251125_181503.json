@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_guided_sepsis.xes",
+  "dataset_path": "data/raw/sepsis.xes",
+  "artifact_path": "artifacts/experiment_20251125T171503Z.json",
+  "metrics": {
+    "mae": 5545327.5373564605,
+    "mse": 107184660602844.8,
+    "rmse": 10353002.492168386,
+    "mape": 28545.942369224842
+  },
+  "duration_sec": 47.65454975399189
+}

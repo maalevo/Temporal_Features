@@ -1,0 +1,13 @@
+{
+  "index": 4,
+  "config_name": "validation_verenich_BPI_2013_closed_problems.xes",
+  "dataset_path": "data/raw/BPI_2013_closed_problems.xes",
+  "artifact_path": "artifacts/experiment_20251111T200135Z.json",
+  "metrics": {
+    "mae": 5178241.923060548,
+    "mse": 109697345387891.88,
+    "rmse": 10473650.050860582,
+    "mape": 4720903.767551757
+  },
+  "duration_sec": 11.81283260701457
+}

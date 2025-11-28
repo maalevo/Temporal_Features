@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_tax_sepsis.xes",
+  "dataset_path": "data/raw/sepsis.xes",
+  "artifact_path": "artifacts/experiment_20251125T151834Z.json",
+  "metrics": {
+    "mae": 5534414.383455188,
+    "mse": 106173111303256.9,
+    "rmse": 10304033.739427337,
+    "mape": 34202.77237674114
+  },
+  "duration_sec": 38.676557867089286
+}

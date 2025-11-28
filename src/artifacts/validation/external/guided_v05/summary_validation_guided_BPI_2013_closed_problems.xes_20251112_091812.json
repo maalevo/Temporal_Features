@@ -1,0 +1,13 @@
+{
+  "index": 4,
+  "config_name": "validation_guided_BPI_2013_closed_problems.xes",
+  "dataset_path": "data/raw/BPI_2013_closed_problems.xes",
+  "artifact_path": "artifacts/experiment_20251112T081812Z.json",
+  "metrics": {
+    "mae": 5023633.585417839,
+    "mse": 109346711552137.3,
+    "rmse": 10456897.797728412,
+    "mape": 4775728.379465818
+  },
+  "duration_sec": 15.154638792038895
+}

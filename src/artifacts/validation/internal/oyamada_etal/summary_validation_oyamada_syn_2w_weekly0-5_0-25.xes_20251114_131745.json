@@ -1,0 +1,13 @@
+{
+  "index": 7,
+  "config_name": "validation_oyamada_syn_2w_weekly0-5_0-25.xes",
+  "dataset_path": "data/raw/syn/syn_2w_weekly0-5_0-25.xes",
+  "artifact_path": "artifacts/experiment_20251114T121745Z.json",
+  "metrics": {
+    "mae": 70873.51295103897,
+    "mse": 13648144685.666945,
+    "rmse": 116825.27417330098,
+    "mape": 4848.113975551117
+  },
+  "duration_sec": 157.64824134099763
+}

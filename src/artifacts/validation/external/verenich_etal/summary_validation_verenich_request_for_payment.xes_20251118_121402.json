@@ -1,0 +1,13 @@
+{
+  "index": 3,
+  "config_name": "validation_verenich_request_for_payment.xes",
+  "dataset_path": "data/raw/request_for_payment.xes",
+  "artifact_path": "artifacts/experiment_20251118T111402Z.json",
+  "metrics": {
+    "mae": 569739.2705929312,
+    "mse": 3128632598192.3506,
+    "rmse": 1768794.1084796586,
+    "mape": 3050.482309826968
+  },
+  "duration_sec": 203.98691092198715
+}

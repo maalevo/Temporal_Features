@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_guided_request_for_payment.xes",
+  "dataset_path": "data/raw/request_for_payment.xes",
+  "artifact_path": "artifacts/experiment_20251118T171343Z.json",
+  "metrics": {
+    "mae": 570031.6155582449,
+    "mse": 3127613498943.629,
+    "rmse": 1768506.0076074463,
+    "mape": 3129.824318192937
+  },
+  "duration_sec": 203.12732445399888
+}

@@ -1,0 +1,13 @@
+{
+  "index": 3,
+  "config_name": "validation_guided_prepaid_travel_cost.xes",
+  "dataset_path": "data/raw/prepaid_travel_cost.xes",
+  "artifact_path": "artifacts/experiment_20251118T172856Z.json",
+  "metrics": {
+    "mae": 1255876.2630022124,
+    "mse": 13308804652752.81,
+    "rmse": 3648123.4426418208,
+    "mape": 182.94315212602274
+  },
+  "duration_sec": 57.36350467000011
+}

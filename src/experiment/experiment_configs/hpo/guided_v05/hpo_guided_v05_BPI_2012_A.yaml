@@ -1,0 +1,115 @@
+
+experiments:
+- seed: 42
+  output_dir: artifacts/hpo/guided_v05/BPI_2012_A
+  
+  load_split_prefix_cache:
+    enabled: true
+    backend: joblib
+    dir: artifacts/cache_joblib/load_split_prefix_cache
+    version: v3 # optional: bump this whenever your code changes in a breaking way
+  feature_cache:
+    enabled: true
+    backend: joblib
+    dir: artifacts/cache_joblib/feature_cache
+    version: v3
+  load_split_prefix_feat_trf_cache:
+    enabled: true
+    backend: joblib
+    dir: artifacts/cache_joblib/load_split_prefix_feat_trf_cache
+    version: v3
+  
+  dataset:
+    path: data/raw/BPI_2012_A.xes
+    case_id_col: case:concept:name
+    activity_col: concept:name
+    timestamp_col: time:timestamp
+  
+  split:
+    type: temporal
+    params:
+      test_ratio: 0.15
+      val_ratio: 0.15
+      seed: 42
+  
+  prefix:
+    min_prefix_len: 1
+    max_prefix_len: null
+  
+  target: remaining_time
+  
+  model:
+    type: lstm
+    base_params:
+      task: regression
+      epochs: 50
+      early_stopping_patience: 10
+      reduce_lr_patience: 5
+      reduce_lr_factor: 0.5
+      verbose: 0
+    candidate_params:
+      num_layers: [1, 2]
+      hidden_size: [64, 128, 256]
+      dropout: [0.2, 0.3]
+      lr: [1e-4, 1e-3]
+      batch_size: [32, 64]
+
+  hpo_params:
+    slices: [1.0]
+    aggregate: mean
+    metric: mae
+
+  transformer:
+    key: lstm
+    params:
+      maxlen: null
+      pad_value: 0.0
+      X_normalization: 0/1
+      y_normalization: 0/1
+  
+############
+  base_features:
+  # Always included
+
+  - feature_key: activity
+    source_col_name: concept:name
+    encoding_key: onehot
+
+  - feature_key: time_since_last_event
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    case_source: case:concept:name
+    granularity_key: second
+  - feature_key: time_since_last_event
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    case_source: case:concept:name
+    granularity_key: minute
+  - feature_key: time_since_last_event
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    case_source: case:concept:name
+    granularity_key: hour
+
+
+  
+  # Cycliality based
+
+  - feature_key: time_in_day
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    granularity_key: minute
+
+  - feature_key: time_in_week
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    granularity_key: minute
+
+  - feature_key: time_in_month
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    granularity_key: minute
+
+  
+  elimination_features:
+  # None

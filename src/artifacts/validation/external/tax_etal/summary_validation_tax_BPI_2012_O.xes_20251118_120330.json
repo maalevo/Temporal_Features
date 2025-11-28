@@ -1,0 +1,13 @@
+{
+  "index": 5,
+  "config_name": "validation_tax_BPI_2012_O.xes",
+  "dataset_path": "data/raw/BPI_2012_O.xes",
+  "artifact_path": "artifacts/experiment_20251118T110330Z.json",
+  "metrics": {
+    "mae": 626074.2438939548,
+    "mse": 845559865811.8177,
+    "rmse": 919543.2919726062,
+    "mape": 3388009.3691319292
+  },
+  "duration_sec": 234.89569592196494
+}

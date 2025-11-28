@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_oyamada_BPI_2012_A.xes",
+  "dataset_path": "data/raw/BPI_2012_A.xes",
+  "artifact_path": "artifacts/experiment_20251118T113242Z.json",
+  "metrics": {
+    "mae": 685210.6090442218,
+    "mse": 1359810733141.1816,
+    "rmse": 1166109.2286493499,
+    "mape": 54024.93899856869
+  },
+  "duration_sec": 134.01469966210425
+}

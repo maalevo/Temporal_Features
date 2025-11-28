@@ -1,0 +1,13 @@
+{
+  "index": 3,
+  "config_name": "validation_oyamada_request_for_payment.xes",
+  "dataset_path": "data/raw/request_for_payment.xes",
+  "artifact_path": "artifacts/experiment_20251118T113726Z.json",
+  "metrics": {
+    "mae": 556738.9185520376,
+    "mse": 3101826083846.1226,
+    "rmse": 1761200.182786194,
+    "mape": 2955.9996139986447
+  },
+  "duration_sec": 150.01975111896172
+}

@@ -1,0 +1,13 @@
+{
+  "index": 1,
+  "config_name": "validation_oyamada_sepsis.xes",
+  "dataset_path": "data/raw/sepsis.xes",
+  "artifact_path": "artifacts/experiment_20251125T152013Z.json",
+  "metrics": {
+    "mae": 5541285.7032058975,
+    "mse": 107045142804112.1,
+    "rmse": 10346262.262484558,
+    "mape": 32629.13500569151
+  },
+  "duration_sec": 50.91718331410084
+}

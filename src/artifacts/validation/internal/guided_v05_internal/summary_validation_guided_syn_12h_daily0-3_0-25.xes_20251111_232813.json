@@ -1,0 +1,13 @@
+{
+  "index": 13,
+  "config_name": "validation_guided_syn_12h_daily0-3_0-25.xes",
+  "dataset_path": "data/raw/syn/syn_12h_daily0-3_0-25.xes",
+  "artifact_path": "artifacts/experiment_20251111T222813Z.json",
+  "metrics": {
+    "mae": 4530.563326363419,
+    "mse": 66297738.51757252,
+    "rmse": 8142.34232377714,
+    "mape": 289.7104493549024
+  },
+  "duration_sec": 172.27203768806066
+}

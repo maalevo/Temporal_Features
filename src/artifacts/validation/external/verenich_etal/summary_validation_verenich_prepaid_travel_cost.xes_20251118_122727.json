@@ -1,0 +1,13 @@
+{
+  "index": 5,
+  "config_name": "validation_verenich_prepaid_travel_cost.xes",
+  "dataset_path": "data/raw/prepaid_travel_cost.xes",
+  "artifact_path": "artifacts/experiment_20251118T112727Z.json",
+  "metrics": {
+    "mae": 1257808.4721170242,
+    "mse": 13486618031853.64,
+    "rmse": 3672413.107461311,
+    "mape": 176.7678173539461
+  },
+  "duration_sec": 58.10661710612476
+}

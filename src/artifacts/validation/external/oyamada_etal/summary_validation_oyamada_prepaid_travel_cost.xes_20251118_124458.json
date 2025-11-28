@@ -1,0 +1,13 @@
+{
+  "index": 6,
+  "config_name": "validation_oyamada_prepaid_travel_cost.xes",
+  "dataset_path": "data/raw/prepaid_travel_cost.xes",
+  "artifact_path": "artifacts/experiment_20251118T114458Z.json",
+  "metrics": {
+    "mae": 1259589.6582462438,
+    "mse": 13407931245418.322,
+    "rmse": 3661684.208860497,
+    "mape": 193.92167358806796
+  },
+  "duration_sec": 52.97579391300678
+}

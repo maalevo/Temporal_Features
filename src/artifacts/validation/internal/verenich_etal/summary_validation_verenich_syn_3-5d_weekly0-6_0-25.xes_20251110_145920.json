@@ -1,0 +1,13 @@
+{
+  "index": 27,
+  "config_name": "validation_tax_syn_3-5d_weekly0-6_0-25.xes",
+  "dataset_path": "data/raw/syn/syn_3-5d_weekly0-6_0-25.xes",
+  "artifact_path": "artifacts/experiment_20251110T135920Z.json",
+  "metrics": {
+    "mae": 21733.56059502335,
+    "mse": 1116315177.1584847,
+    "rmse": 33411.303134695074,
+    "mape": 11135.742550321673
+  },
+  "duration_sec": 157.41093636100413
+}

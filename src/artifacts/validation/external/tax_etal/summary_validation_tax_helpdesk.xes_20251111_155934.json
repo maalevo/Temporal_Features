@@ -1,0 +1,13 @@
+{
+  "index": 2,
+  "config_name": "validation_tax_helpdesk.xes",
+  "dataset_path": "data/raw/helpdesk.xes",
+  "artifact_path": "artifacts/experiment_20251111T145934Z.json",
+  "metrics": {
+    "mae": 443585.5570210606,
+    "mse": 385519522004.5106,
+    "rmse": 620902.1839263497,
+    "mape": 3965.793191724228
+  },
+  "duration_sec": 117.14381209795829
+}

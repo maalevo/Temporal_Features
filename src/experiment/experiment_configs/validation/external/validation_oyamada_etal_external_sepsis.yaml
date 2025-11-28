@@ -1,0 +1,78 @@
+experiments:
+
+#-------
+#-------
+
+- seed: 42
+  dataset:
+    path: data/raw/sepsis.xes
+    case_id_col: case:concept:name
+    activity_col: concept:name
+    timestamp_col: time:timestamp
+  split:
+    type: temporal
+    params:
+      test_ratio: 0.15
+      val_ratio: 0.15
+      seed: 42
+  prefix:
+    min_prefix_len: 1
+    max_prefix_len: null
+  target: remaining_time
+  model:
+    type: lstm
+    params:
+      task: regression
+      num_layers: 2
+      hidden_size: 256
+      lr: 1e-4
+      dropout: 0.2
+      batch_size: 32 
+      epochs: 50
+      early_stopping_patience: 10
+      reduce_lr_patience: 5
+      reduce_lr_factor: 0.5
+      verbose: 0
+  features:
+  # Always included
+
+  - feature_key: activity
+    source_col_name: concept:name
+    encoding_key: onehot
+  - feature_key: time_since_last_event
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    case_source: case:concept:name
+    granularity_key: second
+  - feature_key: time_in_day
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    granularity_key: second
+  - feature_key: time_in_week
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    granularity_key: second
+  
+  - feature_key: time_since_start
+    encoding_key: numeric
+    source_col_name: time:timestamp
+    case_source: case:concept:name
+    granularity_key: second
+  - feature_key: time_in_week
+    encoding_key: onehot
+    source_col_name: time:timestamp
+    granularity_key: day
+  
+
+  
+  # Cycliality based
+
+
+  transformer:
+    key: lstm
+    params:
+      maxlen: null
+      pad_value: 0.0
+      X_normalization: 0/1
+      y_normalization: 0/1
+  name: validation_oyamada_sepsis.xes
