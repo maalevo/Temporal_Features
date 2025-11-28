@@ -1,15 +1,12 @@
+# Process-Aware Temporal Feature Selection for Predictive Process Monitoring
+Maximilian Vouk, Kate Revoredo, and Jan Mendling
+Nov 2025
+
 ## Overview
 
-This repository contains the source code and supplementary material for the paper **"Process-Aware Temporal Feature Selection for Predictive Process Monitoring"**. The paper investigates how temporal characteristics of business processes—especially seasonal patterns—can be systematically incorporated into feature engineering to improve remaining-time prediction in Predictive Process Monitoring (PPM). We introduce a rule-based guideline for selecting temporal features based on process properties and demonstrate that it outperforms established, uniform feature sets in both synthetic and real-world scenarios.
+This repository contains the source code and supplementary material for the paper **"Process-Aware Temporal Feature Selection for Predictive Process Monitoring"**. The paper investigates how temporal characteristics of business processes, especially seasonal patterns, can be systematically incorporated into feature engineering to improve remaining-time prediction in Predictive Process Monitoring (PPM). We introduce a rule-based guideline for selecting temporal features based on process properties and demonstrate that it outperforms established, uniform feature sets in both synthetic and real-world scenarios.
 
 ## Repository Structure
-
-├─ src/
-│ └─ experiment/
-│ └─ experiment_configs/
-├─ imgs/
-└─ supplementary/
-
 
 - **`src`** – Source code required to reproduce the analyses presented in the paper.  
   - The modules in `src/experiment` enable running **hyperparameter optimization**, **recursive feature elimination (RFE)**, and **single validation experiments**.  
